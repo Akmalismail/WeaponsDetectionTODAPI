@@ -7,12 +7,16 @@ This repository is to replicate the evaluation results the results below. This p
 
 
 <center>
+
+
 | Model name | Class | AP (%) | mAP (%) |
 | :--- | :---: | :---: | :---: |
 | [SSD_MobileNet](http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v1_coco_2017_11_17.tar.gz) | Gun<br>Knife<br>Grenade | 35.74<br>15.18<br>37.66 | 29.53 |
 | [SSD_Inception](http://download.tensorflow.org/models/object_detection/ssd_inception_v2_coco_2017_11_17.tar.gz) | Gun<br>Knife | 68.25<br>91.22 | 79.74 |
 | [Frcnn_Inception](http://download.tensorflow.org/models/object_detection/faster_rcnn_inception_v2_coco_2018_01_28.tar.gz) | Gun<br>Knife | 83.63<br>92.11 | 87.87 |
 | [Frcnn_Resnet](http://download.tensorflow.org/models/object_detection/faster_rcnn_resnet101_coco_2018_01_28.tar.gz) | Gun<br>Knife | 79.64<br>91.86 | 85.75 |
+
+
 </center>
 
 
@@ -53,7 +57,7 @@ python models/research/setup.py
 
 ## Evaluating using TODAPI
 
-Run these to evaluate such models
+Run these to evaluate the models
 
 ``` bash
 # SSD_MobileNet
